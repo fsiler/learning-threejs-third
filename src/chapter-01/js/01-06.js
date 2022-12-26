@@ -1,4 +1,5 @@
 function init() {
+    import TrackballControls from 'https://cdn.jsdelivr.net/npm/three-trackballcontrols@0.9.0/index.min.js';
 
     // listen to the resize events
     window.addEventListener('resize', onResize, false);
@@ -27,7 +28,7 @@ function init() {
     renderer.shadowMap.enabled = true;
 
     // initialize the trackball controls and the clock which is needed
-    var trackballControls = initTrackballControls(camera, renderer);
+    var trackballControls = TrackballControls(camera, renderer);
     var clock = new THREE.Clock();
 
         

@@ -1,0 +1,2 @@
+sed -i.bak -e 's/<script type="text\/javascript" charset="UTF-8" src="..\/..\/libs\/three\/three.js">/<\/script><script type="text\/javascript" charset="UTF-8" src="..\/..\/node_modules\/three\/build\/three.js"><\/script>/g' $1
+sed -i.bak -e 's/<script type="text\/javascript" charset="UTF-8" src="..\/..\/libs\/three\/controls\/TrackballControls.js">/<\/script><script type="text\/javascript" charset="UTF-8" src="..\/..\/node_modules\/three-trackballcontrols\/index.js"><\/script>/g' $1

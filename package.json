@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/josdirksen/learning-threejs-third#readme",
   "dependencies": {
-    "three": "^0.91.0"
+    "three": "^0.148.0",
+    "three-trackballcontrols": "^0.9.0"
   },
   "devDependencies": {
     "jslint": "^0.11.0"
